@@ -87,7 +87,7 @@ article {
 .drop-cap::first-letter {
 	-webkit-initial-letter: 4;
 	initial-letter: 4;
-	color: orange;
+	color: purple;
 	font-weight: bold;
 	margin-right: 0.75em;
 }
@@ -95,6 +95,7 @@ article {
 .image_polebar {
 	display: flex;
 	justify-content: center;
+	margin-top: 2rem;
 	margin-bottom: 30px;
 }
 
