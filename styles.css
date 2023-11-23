@@ -46,8 +46,9 @@ Slabo
 }
 
 .image_ray img {
-	width: 172px;
-	height: 250px;
+	width: 200px;
+	height: 350px;
+	border-radius: 5px;
 }
 
 .title {
@@ -59,7 +60,7 @@ Slabo
 }
 
 h1 {
-	margin-top: -5rem;
+
 	font-family: "Yellowtail", cursive;
 	font-size: 80pt;
 	width: 1rem;
@@ -82,15 +83,17 @@ h1 {
 
 article {
 	width: 80%;
+	font-family: "Yellowtail", cursive;
+	font-size: 1.4em;
 }
 
-.drop-cap::first-letter {
+/* .drop-cap::first-letter {
 	-webkit-initial-letter: 4;
 	initial-letter: 4;
 	color: purple;
 	font-weight: bold;
 	margin-right: 0.75em;
-}
+} */
 
 .image_polebar {
 	display: flex;
@@ -103,3 +106,31 @@ article {
 	width: 250px;
 	height: 250px;
 }
+
+.video_namoro {
+	width: 250px;
+	height: 250px;
+}
+
+.button_download{ 
+	background-color: purple;
+	padding: 40px;
+	border-radius: 10px;
+	border: none;
+}
+
+.download{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 5rem 3rem;
+}
+
+.button_download .text_button {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-decoration: none;
+}
+
