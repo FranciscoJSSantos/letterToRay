@@ -37,7 +37,7 @@
       </div>
 
       <div class="download">
-      <button class="button_download">
+      <button class="button_download" onclick = "downloadFile()">
          <a class="text_button" href="/assets/Aniversário Namoro.mp4" download>
             Clique aqui para baixar o gifzinho 
          </a>
@@ -45,5 +45,10 @@
    </div>
  
 </body>
+<script>
+   function downloadFile() {
+      window.open("/assets/Aniversário Namoro.mp4")
+   }
+</script>
 
 </html>
